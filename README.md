@@ -1,6 +1,6 @@
 To create pod, run below command.
 ```
-kubectl apply -f <yaml-path>
+kubectl apply -f https://raw.githubusercontent.com/parveenchahal/k8s-debugging-pod/main/pod.yaml
 ```
 
 To login to pod.
