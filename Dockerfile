@@ -22,6 +22,8 @@ RUN apt-get -y install dnsutils
 RUN apt-get -y install iputils-ping
 RUN apt-get -y install traceroute
 RUN apt-get -y install net-tools
+RUN apt-get -y install telnet
+RUN apt-get -y install ufw
 RUN apt-get -y install iproute2
 RUN apt-get -y install build-essential
 RUN apt-get -y install autoconf
