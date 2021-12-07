@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: k8s-debugging-pod-1
-    image: pchahal24/pc-test-pod:latest
+    image: pchahal24/k8s-debugging-pod:latest
     command:
     - "sleep"
     - "31536000"
