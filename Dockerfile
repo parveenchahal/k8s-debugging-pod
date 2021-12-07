@@ -34,3 +34,4 @@ RUN apt-get -y install libffi-dev
 RUN apt-get -y install zlib1g-dev
 RUN apt-get -y install libssl-dev
 RUN apt-get -y install ubuntu-make
+RUN apt-get -y install redis-tools
